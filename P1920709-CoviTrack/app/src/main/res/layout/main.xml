@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:background="#473F97"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="39dp">
+
+        <TabHost
+            android:id="@+id/TabHost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/details_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imgUs"
+                                android:layout_width="69dp"
+                                android:layout_height="73dp"
+                                android:src="@drawable/map" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/us"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:padding="@dimen/padding_small"
+                                android:text="  Different Countries"
+                                android:textAppearance="@style/TextAppearance.Aurora.Title"
+                                android:textColor="@color/colorAccent2"
+                                android:textSize="30sp" />
+
+                        </TableRow>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/bg"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="match_parent"
+                                android:layout_height="251dp"
+                                android:scaleType="center"
+                                app:srcCompat="@drawable/countries" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/restaurant_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="69dp"
+                                android:layout_height="73dp"
+                                android:src="@drawable/india" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_title2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:padding="@dimen/padding_small"
+
+                                android:text="   States"
+                                android:textAppearance="@style/TextAppearance.Aurora.Title"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="30sp" />
+
+                        </TableRow>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="555dp"
+                            android:layout_below="@id/txt_title"
+
+                            android:clipToPadding="false"
+                            android:overScrollMode="never"
+                            android:paddingBottom="?actionBarSize"
+                            android:scrollbars="vertical"
+                            tools:listitem="@layout/item_state" >
+
+                        </androidx.recyclerview.widget.RecyclerView>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </TabHost>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/activity"
+                android:layout_width="163dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="10dp"
+                android:text="Individual Country Cases"
+                android:backgroundTint="@color/red"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                app:cornerRadius="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/activity2"
+                android:layout_width="163dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center"
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="10dp"
+                android:text="STATE CASES"
+                android:backgroundTint="@color/green"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                app:cornerRadius="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/activity"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.811"
+                app:layout_constraintStart_toEndOf="@+id/activity"
+                app:layout_constraintTop_toTopOf="@+id/activity"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sp.corona">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AuroraApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/th"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".KnowMore"></activity>
+        <activity android:name=".PrecautionActivity" />
+        <activity android:name=".SymptomActivity" />
+        <activity android:name=".MainActivity"/>
+        <!-- android:theme="@style/AppTheme" -->
+        <!-- <activity -->
+        <!-- android:name=".Main4Activity" -->
+        <!-- android:label="@string/title_activity_main4" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".Main3Activity" -->
+        <!-- android:label="@string/title_activity_main3" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity android:name=".MainActivity" /> &lt;!&ndash; <activity android:name=".Splash"></activity> &ndash;&gt; -->
+        <activity
+            android:name=".CountryWiseDataActivity"
+            android:parentActivityName=".MainActivity" /> <activity android:name=".EachCountryDataActivity"
+        android:parentActivityName=".CountryWiseDataActivity"></activity>
+        <activity
+            android:name=".Splash"
+            android:label="CoviTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

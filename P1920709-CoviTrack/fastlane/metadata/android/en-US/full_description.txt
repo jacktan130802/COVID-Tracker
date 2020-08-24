@@ -1,0 +1,10 @@
+A statistics app to provide details about Corona outbreak in india
+
+Features :
+1. Free / Libre software
+2. Daily Report
+3. State-wise reports
+4. Graphical Stats
+
+Stay home, stay safe.
+Do not die from corona, please. Future generations will laugh at you. 

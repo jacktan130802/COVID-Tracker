@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.sp.corona.fragment.DashboardFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.sp.corona.fragment.StateListFragment"
+        android:label="@string/title_state_list"
+        tools:layout="@layout/fragment_state_wise" />
+
+    <fragment
+        android:id="@+id/information"
+        android:name="com.sp.corona.fragment.infoFragment"
+        android:label="info"
+        tools:layout="@layout/info" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.sp.corona.fragment.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
+</navigation>

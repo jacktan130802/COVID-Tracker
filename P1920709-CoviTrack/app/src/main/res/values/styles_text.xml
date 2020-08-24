@@ -1,0 +1,38 @@
+
+
+<resources>
+
+    <style name="TextAppearance.Aurora.Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/gilroy_extra_bold</item>
+        <item name="android:textColor">@color/txtColorPrimary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:alpha">1</item>
+    </style>
+
+    <style name="TextAppearance.Aurora.SubTitle" parent="TextAppearance.Aurora.Title">
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:color">#000000</item>
+    </style>
+
+    <style name="TextAppearance.Aurora.Line1" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/txtColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Aurora.Line2" parent="TextAppearance.Aurora.Line1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/txtColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Aurora.Line3" parent="TextAppearance.Aurora.Line2">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

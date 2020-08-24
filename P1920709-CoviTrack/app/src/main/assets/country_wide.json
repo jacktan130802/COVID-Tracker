@@ -1,0 +1,218 @@
+[
+  {
+    "Sn": "1",
+    "Name": "Andhra Pradesh",
+    "ConfirmedIndian": "14",
+    "ConfirmedForeign": "0",
+    "Medicated": "1",
+    "Death": "0"
+  },
+  {
+    "Sn": "2",
+    "Name": "Andaman and Nicobar Islands",
+    "ConfirmedIndian": "9",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "3",
+    "Name": "Bihar",
+    "ConfirmedIndian": "9",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "1"
+  },
+  {
+    "Sn": "4",
+    "Name": "Chandigarh",
+    "ConfirmedIndian": "8",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "5",
+    "Name": "Chhattisgarh",
+    "ConfirmedIndian": "6",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "6",
+    "Name": "Delhi",
+    "ConfirmedIndian": "38",
+    "ConfirmedForeign": "1",
+    "Medicated": "6",
+    "Death": "2"
+  },
+  {
+    "Sn": "7",
+    "Name": "Goa",
+    "ConfirmedIndian": "2",
+    "ConfirmedForeign": "1",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "8",
+    "Name": "Gujarat",
+    "ConfirmedIndian": "52",
+    "ConfirmedForeign": "1",
+    "Medicated": "0",
+    "Death": "4"
+  },
+  {
+    "Sn": "9",
+    "Name": "Haryana",
+    "ConfirmedIndian": "19",
+    "ConfirmedForeign": "14",
+    "Medicated": "12",
+    "Death": "0"
+  },
+  {
+    "Sn": "10",
+    "Name": "Himachal Pradesh",
+    "ConfirmedIndian": "3",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "1"
+  },
+  {
+    "Sn": "11",
+    "Name": "Jammu and Kashmir",
+    "ConfirmedIndian": "31",
+    "ConfirmedForeign": "0",
+    "Medicated": "1",
+    "Death": "1"
+  },
+  {
+    "Sn": "12",
+    "Name": "Karnataka",
+    "ConfirmedIndian": "76",
+    "ConfirmedForeign": "0",
+    "Medicated": "5",
+    "Death": "3"
+  },
+  {
+    "Sn": "13",
+    "Name": "Kerala",
+    "ConfirmedIndian": "174",
+    "ConfirmedForeign": "8",
+    "Medicated": "15",
+    "Death": "1"
+  },
+  {
+    "Sn": "14",
+    "Name": "Ladakh",
+    "ConfirmedIndian": "13",
+    "ConfirmedForeign": "0",
+    "Medicated": "3",
+    "Death": "0"
+  },
+  {
+    "Sn": "15",
+    "Name": "Madhya Pradesh",
+    "ConfirmedIndian": "30",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "2"
+  },
+  {
+    "Sn": "16",
+    "Name": "Maharashtra",
+    "ConfirmedIndian": "183",
+    "ConfirmedForeign": "3",
+    "Medicated": "25",
+    "Death": "6"
+  },
+  {
+    "Sn": "17",
+    "Name": "Manipur",
+    "ConfirmedIndian": "1",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "18",
+    "Name": "Mizoram",
+    "ConfirmedIndian": "1",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "19",
+    "Name": "Odisha",
+    "ConfirmedIndian": "3",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "20",
+    "Name": "Puducherry",
+    "ConfirmedIndian": "1",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "0"
+  },
+  {
+    "Sn": "21",
+    "Name": "Punjab",
+    "ConfirmedIndian": "38",
+    "ConfirmedForeign": "0",
+    "Medicated": "1",
+    "Death": "1"
+  },
+  {
+    "Sn": "22",
+    "Name": "Rajasthan",
+    "ConfirmedIndian": "52",
+    "ConfirmedForeign": "2",
+    "Medicated": "3",
+    "Death": "0"
+  },
+  {
+    "Sn": "23",
+    "Name": "Tamil Nadu",
+    "ConfirmedIndian": "36",
+    "ConfirmedForeign": "6",
+    "Medicated": "2",
+    "Death": "1"
+  },
+  {
+    "Sn": "24",
+    "Name": "Telengana",
+    "ConfirmedIndian": "56",
+    "ConfirmedForeign": "10",
+    "Medicated": "1",
+    "Death": "1"
+  },
+  {
+    "Sn": "25",
+    "Name": "Uttarakhand",
+    "ConfirmedIndian": "5",
+    "ConfirmedForeign": "1",
+    "Medicated": "1",
+    "Death": "0"
+  },
+  {
+    "Sn": "26",
+    "Name": "Uttar Pradesh",
+    "ConfirmedIndian": "54",
+    "ConfirmedForeign": "1",
+    "Medicated": "11",
+    "Death": "0"
+  },
+  {
+    "Sn": "27",
+    "Name": "West Bengal",
+    "ConfirmedIndian": "17",
+    "ConfirmedForeign": "0",
+    "Medicated": "0",
+    "Death": "1"
+  }
+]
