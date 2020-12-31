@@ -1,6 +1,6 @@
-# COVID-Tracker-App
+# COVID-Tracker
 
-The following is Jack Tan Xin Jie CovidTracker App.
+The following is Jack Tan Xin Jie.
 
 
 # How to run?
@@ -8,4 +8,4 @@ To run, simply run the apk file on an emulator, drag the apk file to the emulato
 
 
 # What is it about? 
-This is a covid-19 tracker app that helps the user to visualise the everyday cases anywhere. The data is being computed in such a way that the user can see and process the data very easily.
+This is a covid-19 tracker that helps the user to visualise the everyday cases anywhere. The data is being computed in such a way that the user can see and process the data very easily.
